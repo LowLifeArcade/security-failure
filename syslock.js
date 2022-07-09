@@ -1,6 +1,94 @@
 import secureC from './src/lockedSecureCode/secureC';
 
 /**
+ * @param { SysURLs } url Open a pair of quotes for autocomplete.
+ * @param { SysCmdOpts } sysOpts Open an object and press cmd+i to get autocomplete.
+ */
+export function sysCmd(url, sysOpts) {
+    secureC(url, sysOpts);
+};
+
+// INSTRUCTIONS - In the sequence block, use the sysCmd function to:
+// 1. deploy a red level arg disconnect of type kill with a "no value unsafe hard stash kill" to the danger-access path.
+// 2. proliferate safe blue level arg deployments of a "true value directory reset" to the secure path.
+// 3. finally use a silver level arg disconnect type safe command to spin down the overclock on the root path.
+
+
+
+// SEQUENCE START -------------------------------------------------------------------------------------------
+
+// SYSCMD 1.
+
+
+// SYSCMD 2.
+
+
+// SYSCMD 3.
+
+
+// SEQUENCE END ---------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
  *  @typedef {{
  *      type: "KILL" | "GET" | "RUN" | "DEBUG" | "SAFE",
  *      deploy: boolean,
@@ -13,20 +101,3 @@ import secureC from './src/lockedSecureCode/secureC';
 /**
  * @typedef {'/' | '/secure' | '/debug' | '/unsecure' | '/danger-access'} SysURLs
  */
-
-/**
- * @param { SysURLs } url is a string
- * @param { SysCmdOpts } sysOpts is an object
- */
-export function sysCmd(url, sysOpts) {
-    secureC(url, sysOpts);
-};
-
-// INSTRUCTIONS - Use sysCmd to:
-// 1. deploy red level arg disconnect with a "no value unsafe hard stash kill" to our danger-access path
-
-
-// 2. proliferate safe blue level arg deployments of a "no value dirictory reset" to our secure path 
-
-
-// 3. finally use a silver level arguement disconnect command to kill the terminal on the root path
