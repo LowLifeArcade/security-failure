@@ -1,4 +1,4 @@
-# * ### Security Failure ###*
+# * ### Security Failure ### *
 ## System Command Options
 
   > We need to cancel cron jobs and override diff check teardowns before they corrupt and burn up the data hives!
