@@ -21,7 +21,9 @@ export function sysCmd(uri, sysOpts) {
 //
 // SYSCMD 1.)
 // -----------------
-
+sysCmd('/reden/sandepss/blade-vault', {
+    loc_encrypt_conn: 'SSH'
+})
 // -----------------
 //
 // SYSCMD 2.)
