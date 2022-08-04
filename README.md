@@ -11,4 +11,4 @@
   #### Extra Credit
   > Once you safely shut down the systems, build guards in the `sysCmd` function against wrong attempts for the future!
 
-  ## Press the period key to start
+  ## Press the period key to start and open sequencer.js
