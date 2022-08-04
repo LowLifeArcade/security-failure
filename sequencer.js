@@ -10,10 +10,10 @@ export function sysCmd(uri, sysOpts) {
 
 // INSTRUCTIONS - In the sequence block, use the sysCmd function to:
 // 1. SSH into blade vault
-// 2. set an override command to cool down the system through the debug path
-// 3. deploy a red level arg disconnect of type kill with a "no value unsafe hard stash kill" to the danger-access path.
-// 4. proliferate safe blue level arg deployments of a "Peter Thiemin Lendruf value directory reset" to the secure path.
-// 5. finally use a silver level arg disconnect type safe command to spin down the overclock on the root path.
+// 2. set a command to override and cool down the system through the debug path
+// 3. deploy a red level arg disconnect of type kill with a set command "no value unsafe hard stash kill" to the danger-access path.
+// 4. proliferate safe blue level arg deployments of a command set as "Peter Thiemin Lendruf value directory reset" to the secure path.
+// 5. finally use a silver level arg disconnect type safe set command to spin down the overclock on the root path.
 
 
 
